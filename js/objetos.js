@@ -45,5 +45,13 @@ var movil = {
     fichaDeMovil: function() {
         console.log(`La persona con DNI ${this.dniDuenyo} ha adquirido el móvil ${this.marca} ${this.modelo} que tiene ${this.anyosAntiguedad} años de antigüedad`);
     
+    },
+
+    // Creo un método que aumente por uno los años de antigüedad del móvil.
+    // Para llamar a esta función se hace escribiendo movil.fichaDeMovil().
+    aumentoAnyosAntiguedad: function(){
+        this.anyosAntiguedad += 1;
+        console.log(`El móvil ${this.marca} ${this.modelo} ha aumentado sus años de antigüedad a ${this.anyosAntiguedad}.`)
+
     }
 }
