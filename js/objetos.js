@@ -64,6 +64,12 @@ var colonia = {
     familiaOlfativa: 'Orientales',
     anyoLanzamiento: 1993,
     cantidad: '30ml',
-    precioEnEuros: 55
+    precioEnEuros: 55,
+
+    // Creo un método que devuelve la informacion de esta colonia.
+    // Para llamar a esta función se hace escribiendo colonia.fichaDeColonia().
+    fichaDeColonia: function() {
+        console.log(`Presentamos hoy, 13 de mayo de ${this.anyoLanzamiento}, la nueva colonia de ${this.marca} para ${this.genero}.`)
+    }
 
 }
