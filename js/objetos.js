@@ -43,7 +43,7 @@ var movil = {
     // Creo un método que devuelve la información de la compra de este móvil.
     // Para llamar a esta función se hace escribiendo movil.fichaDeMovil().
     fichaDeMovil: function() {
-        console.log(`La persona con DNI ${this.dniDuenyo} ha adquirido el móvil ${this.marca} ${this.modelo} que tiene ${this.anyosAntiguedad} años de antigüedad`);
+        console.log(`La persona con DNI ${this.dniDuenyo} ha adquirido el móvil ${this.marca} ${this.modelo} que tiene ${this.anyosAntiguedad} años de antigüedad.`);
     
     },
 
