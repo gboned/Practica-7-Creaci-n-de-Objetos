@@ -38,6 +38,12 @@ var movil = {
     modelo: 'P20 lite',
     anyosAntiguedad: 2,
     memoriaRam: '4GB',
-    bateria: '3000mAh'
+    bateria: '3000mAh',
 
+    // Creo un método que devuelve la información de la compra de este móvil.
+    // Para llamar a esta función se hace escribiendo movil.fichaDeMovil().
+    fichaDeMovil: function() {
+        console.log(`La persona con DNI ${this.dniDuenyo} ha adquirido el móvil ${this.marca} ${this.modelo} que tiene ${this.anyosAntiguedad} años de antigüedad`);
+    
+    }
 }
