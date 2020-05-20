@@ -55,3 +55,15 @@ var movil = {
 
     }
 }
+
+// Creo el tercer objeto, una colonia.
+var colonia = {
+    marca: 'Jean Paul Gaultier',
+    concentracion: 'Eau de toilette',
+    genero: 'Mujer',
+    familiaOlfativa: 'Orientales',
+    anyoLanzamiento: 1993,
+    cantidad: '30ml',
+    precioEnEuros: 55
+
+}
