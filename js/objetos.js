@@ -29,3 +29,15 @@ var alumno = {
 
     }
 };
+
+// Creo el segundo objeto, que será un móvil, el cual ha sido adquirido de segunda mano por una persona.
+var movil = {
+    identificacion: '010928/00/389023/3',
+    dniDuenyo: '48107402D',
+    marca: 'Huawei',
+    modelo: 'P20 lite',
+    anyosAntiguedad: 2,
+    memoriaRam: '4GB',
+    bateria: '3000mAh'
+
+}
