@@ -70,6 +70,16 @@ var colonia = {
     // Para llamar a esta función se hace escribiendo colonia.fichaDeColonia().
     fichaDeColonia: function() {
         console.log(`Presentamos hoy, 13 de mayo de ${this.anyoLanzamiento}, la nueva colonia de ${this.marca} para ${this.genero}.`)
+    },
+
+    // Creo un método que aplica un descuento sobre el precio de esta colonia.
+    // Para llamar a esta función se hace escribiendo colonia.rebajaColonia().
+    rebajaColonia: function() {
+        // Creo una variable para calcular cuánto se descuenta.
+        var descuento = parseInt(this.precioEnEuros) * 0.36;
+        // Resto al precio original el descuento.
+        this.precioEnEuros -= descuento;
+        console.log(`La colonia ${this.marca} ha sido rebajada un ${descuento}% de su precio, y ahora cuesta ${this.precioEnEuros}€.`);
     }
 
 }
